@@ -1,4 +1,4 @@
-#Evaluación del Riesgo Crediticio en una Entidad Bancaria
+Evaluación del Riesgo Crediticio en una Entidad Bancaria
 
 Bbank es un banco ético de reciente creación. Se trata de uno de los bancos más sostenibles del mundo. Hacen que el dinero trabaje para lograr un cambio social, ambiental y cultural positivo.
 
