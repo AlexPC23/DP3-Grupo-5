@@ -7,7 +7,8 @@ Calcular la probabilidad de que, al momento de vencimiento, su cliente no haga f
 
 El problema consiste en evaluar los modelos de riesgo crediticio. Básicamente, al pedir un préstamo a una entidad financiera nos enfrentamos a dos problemas: 
 
-Disposición a Pagar.
-Capacidad económica de afrontar el pago.
+1. Disposición a Pagar.
+
+2. Capacidad económica de afrontar el pago.
 
 Ya que no todos los clientes pagan, BBANK confía en nosotros para construir modelos robustos que predicen de forma efectiva si el cliente va a tener problemas para hacerse cargo del préstamo. Estas dos premisas mencionadas anteriormente, deben de quedar resueltas por el banco antes de firmar un préstamo con el cliente.
