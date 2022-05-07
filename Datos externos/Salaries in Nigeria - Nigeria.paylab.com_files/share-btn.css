@@ -1,0 +1,181 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "share-buttons";
+    src: url("https://cdn.rawgit.com/sunnysingh/share-buttons/v1.0.0/build/fonts/share-buttons.eot?gpra60");
+    src: url("https://cdn.rawgit.com/sunnysingh/share-buttons/v1.0.0/build/fonts/share-buttons.eot?#iefixgpra60") format("embedded-opentype"), url("https://cdn.rawgit.com/sunnysingh/share-buttons/v1.0.0/build/fonts/share-buttons.woff?gpra60") format("woff"), url("https://cdn.rawgit.com/sunnysingh/share-buttons/v1.0.0/build/fonts/share-buttons.ttf?gpra60") format("truetype"), url("https://cdn.rawgit.com/sunnysingh/share-buttons/v1.0.0/build/fonts/share-buttons.svg?gpra60#share-buttons") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+.share-btn-icon {
+    font-family: "share-buttons";
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.share-btn-facebook .share-btn-icon:before {
+    content: "";
+}
+
+.share-btn-green .share-btn-icon:before {
+    content: "";
+}
+
+.share-btn-twitter .share-btn-icon:before {
+    content: "";
+}
+
+.share-btn-linkedin .share-btn-icon:before {
+    content: "";
+}
+
+.share-btn-pinterest .share-btn-icon:before {
+    content: "";
+}
+
+.share-btn, .share-btn * {
+    box-sizing: border-box;
+}
+
+.share-btn, .share-btn *, .share-btn *:before, .share-btn *:after {
+    box-sizing: border-box;
+}
+
+.share-btn {
+    background-color: #e0e0e0;
+    color: white;
+    position: relative;
+    display: inline-block;
+    height: 24px;
+    margin: 0;
+    padding: 2px 8px;
+    line-height: 1.53;
+    letter-spacing: 0.04em;
+    vertical-align: top;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    border: 1px solid #c7c7c7;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+.share-btn:hover, .share-btn:focus {
+    background: lightgray;
+    border-color: #bababa;
+    text-decoration: none;
+    color: white;
+}
+.share-btn:active {
+    background: #c7c7c7;
+    border-color: #adadad;
+    text-decoration: none;
+    color: white;
+}
+
+.share-btn.share-btn-branded.share-btn-twitter {
+    background: #55acee;
+    border-color: #3ea1ec;
+}
+.share-btn.share-btn-branded.share-btn-twitter:hover, .share-btn.share-btn-branded.share-btn-twitter:focus {
+    background: #3ea1ec;
+    border-color: #2795e9;
+}
+.share-btn.share-btn-branded.share-btn-twitter:active {
+    background: #2795e9;
+    border-color: #1689e0;
+}
+
+.share-btn.share-btn-branded.share-btn-green {
+    background: #90c91f;
+    border-color: #80b31c;
+}
+.share-btn.share-btn-branded.share-btn-green:hover, .share-btn.share-btn-branded.share-btn-green:focus {
+    background: #80b31c;
+    border-color: #709d18;
+}
+.share-btn.share-btn-branded.share-btn-green:active {
+    background: #709d18;
+    border-color: #618715;
+}
+
+.share-btn.share-btn-branded.share-btn-grey {
+    background: #575757;
+    border-color: #4a4a4a;
+}
+.share-btn.share-btn-branded.share-btn-grey:hover, .share-btn.share-btn-branded.share-btn-grey:focus {
+    background: #4a4a4a;
+    border-color: #3e3e3e;
+}
+.share-btn.share-btn-branded.share-btn-grey:active {
+    background: #3e3e3e;
+    border-color: #313131;
+}
+
+.share-btn.share-btn-branded.share-btn-facebook {
+    background: #3b5998;
+    border-color: #344e86;
+}
+.share-btn.share-btn-branded.share-btn-facebook:hover, .share-btn.share-btn-branded.share-btn-facebook:focus {
+    background: #344e86;
+    border-color: #2d4373;
+}
+.share-btn.share-btn-branded.share-btn-facebook:active {
+    background: #2d4373;
+    border-color: #263961;
+}
+
+.share-btn.share-btn-branded.share-btn-linkedin {
+    background: #0976b4;
+    color: #fff;
+    border-color: #08669c;
+}
+.share-btn.share-btn-branded.share-btn-linkedin:hover, .share-btn.share-btn-branded.share-btn-linkedin:focus {
+    background: #08669c;
+    border-color: #075683;
+}
+.share-btn.share-btn-branded.share-btn-linkedin:active {
+    background: #075683;
+    border-color: #05466b;
+}
+
+.share-btn.share-btn-branded.share-btn-pinterest {
+    background: #cc2127;
+    color: #fff;
+    border-color: #b61d23;
+}
+.share-btn.share-btn-branded.share-btn-pinterest:hover, .share-btn.share-btn-branded.share-btn-pinterest:focus {
+    background: #b61d23;
+    border-color: #a01a1f;
+}
+.share-btn.share-btn-branded.share-btn-pinterest:active {
+    background: #a01a1f;
+    border-color: #8a161a;
+}
+
+.share-btn.share-btn-twitter .share-btn-icon,
+.share-btn.share-btn-linkedin .share-btn-icon,
+.share-btn.share-btn-pinterest .share-btn-icon {
+    position: relative;
+    top: 1px;
+}
+
+@-moz-document url-prefix() {
+    .share-btn-twitter .share-btn-icon,
+    .share-btn-linkedin .share-btn-icon,
+    .share-btn-pinterest .share-btn-icon {
+        top: 0;
+    }
+}
+.share-btn.share-btn-more.share-btn-lg .share-btn-icon {
+    top: 2px;
+}
+
+.share-btn.share-btn-text {
+    padding-left: 2px;
+}
