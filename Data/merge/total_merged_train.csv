@@ -1,6 +1,4 @@
 systemloanid,loannumber,loanamount,termdays,interest,loan_interval,interest_interval,good_bad_flag,avg_loanamount,avg_paym_span_hrs,avg_active_span_days,avg_interest,max_loannumber,bank_name_clients,age,age_interval,state,customerid
-continuous,0-4 +4,continuous,30 Other,continuous,10000 mas\ de\ 10000,3000 mas\ de\ 3000 menos\ de\ 3000,Bad Good,continuous,continuous,continuous,continuous,continuous,GT\ Bank Multinational\ Banks,continuous,26-35 36-40 41-61,Lagos Other,string
-,,,,,,,,,,,,,,,,,meta
 301971032.0,0-4,10000.0,30,3000.0,10000,3000,Bad,10000.0,0.0,33.0,3000.0,1.0,Multinational Banks,36.0,36-40,Lagos,8a858fbd5ad1feb0015ad209895209a5
 301961091.0,0-4,10000.0,30,3000.0,10000,3000,Good,10000.0,13.0,3.0,3000.0,1.0,GT Bank,41.0,41-61,Lagos,8a858e3c5cac9fcc015cacb7b97a0977
 301964205.0,+4,20000.0,30,3000.0,mas de 10000,3000,Good,15000.0,15.166666666666666,23.33333333333333,3133.333333333333,6.0,Multinational Banks,34.0,26-35,Other,8a858ee159de9b420159dee292301739
