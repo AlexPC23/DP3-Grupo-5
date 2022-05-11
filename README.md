@@ -22,14 +22,9 @@ Bbank es un banco ético de reciente creación. Se trata de uno de los bancos m�
 Para poder reproducir la solución debes tener instalado Docker y Git.
 
 Primero de todo, clonamos este repositorio:
-```
-git clone https://github.com/AlexPC23/DP3-Grupo-5
-``` 
-Una vez hayamos clonado el repositorio, accedemos a este y creamos un contenedor que será el que tenga el entorno Jupyter:
-```
-docker-compose up -d --build 
-```
-Cuando hayan cargado todos los componentes nos dirigimos a la siguiente dirección:
-```
-http://localhost:8888/
-```
+
+Una vez que hemos clonado el repostiorio, para acceder al entorno de jupyter, lanzaremos el comando siguiente para crear el contenedor de docker:
+
+docker-compose up
+
+Con el contenedor ya en marcha, para acceder al entorno deberemos buscar la siguiente direccion http://localhost:10000/. A continuación nos pedira una contraseña o token para poder acceder. En este caso hemos especificado el token para el acceso en el archivo dokcer-compose que hemos creado y hemos puesto "dataproject". Una vez escribamos el token ya nos deja acceder al los archivos subidos en el entorno
