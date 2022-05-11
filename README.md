@@ -22,4 +22,14 @@ Bbank es un banco ético de reciente creación. Se trata de uno de los bancos m�
 Para poder reproducir la solución debes tener instalado Docker y Git.
 
 Primero de todo, clonamos este repositorio:
-
+```
+git clone https://github.com/AlexPC23/DP3-Grupo-5
+``` 
+Una vez hayamos clonado el repositorio, accedemos a este y creamos un contenedor que será el que tenga el entorno Jupyter:
+```
+docker-compose up -d --build 
+```
+Cuando hayan cargado todos los componentes nos dirigimos a la siguiente dirección:
+```
+http://localhost:8888/
+```
