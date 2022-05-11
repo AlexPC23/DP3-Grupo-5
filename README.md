@@ -29,7 +29,8 @@ Una vez hayamos clonado el repositorio, accedemos a este y creamos un contenedor
 ```
 docker-compose up -d --build 
 ```
-Cuando hayan cargado todos los componentes nos dirigimos a la siguiente dirección:
+Con el contenedor ya en marcha, para acceder al entorno deberemos buscar la siguiente direccion:
 ```
-http://localhost:8888/
-```
+http://localhost:10000/
+``` 
+A continuación nos pedira una contraseña o token para poder acceder. En este caso hemos especificado el token para el acceso en el archivo dokcer-compose que hemos creado y hemos puesto "dataproject". Una vez escribamos el token ya nos deja acceder al los archivos subidos en el entorno
