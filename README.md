@@ -1,21 +1,25 @@
 # Grupo 5 - DP
 
 - [Julen Aguirreurreta](https://www.linkedin.com/in/julen-aguirreurreta/)
-- [Marta Castillo]
-- [Olimpia Fuster]
-- [Alejandro Pérez]
-- [Miguel Ruiz]
+- [Marta Castillo](https://www.linkedin.com/in/marta-castillo-garc%C3%ADa-041bb169/)
+- [Olimpia Fuster](https://www.linkedin.com/in/olimpia-fuster/)
+- [Alejandro Pérez](https://www.linkedin.com/in/alejandro-perez-casas/)
+- [Miguel Ruiz](https://www.linkedin.com/in/miguel-ruiz-mic%C3%B3-222115213/)
+
 # Evaluación del Riesgo Crediticio en una Entidad Bancaria
+
+# Proyecto 
 
 Bbank es un banco ético de reciente creación. Se trata de uno de los bancos más sostenibles del mundo. Hacen que el dinero trabaje para lograr un cambio social, ambiental y cultural positivo.
 
-¿Qué nos solicita bbank? 
-Calcular la probabilidad de que, al momento de vencimiento, su cliente no haga frente, en parte o en su totalidad, a la obligación de devolver una deuda acordada con la entidad, debido a quiebra, liquidez u otras razones.
+# ¿Qué nos solicita bbank? 
 
-El problema consiste en evaluar los modelos de riesgo crediticio. Básicamente, al pedir un préstamo a una entidad financiera nos enfrentamos a dos problemas: 
+- Realizar un clustering para ver qué tipos de cliente tiene el banco.
+- Crear un clasificador que indique si el préstamo es bueno o no.
 
-1. Disposición a Pagar.
+# Introducción
 
-2. Capacidad económica de afrontar el pago.
+Para poder reproducir la solución debes tener instalado Docker y Git.
 
-Ya que no todos los clientes pagan, BBANK confía en nosotros para construir modelos robustos que predicen de forma efectiva si el cliente va a tener problemas para hacerse cargo del préstamo. Estas dos premisas mencionadas anteriormente, deben de quedar resueltas por el banco antes de firmar un préstamo con el cliente.
+Primero de todo, clonamos este repositorio:
+
