@@ -52,7 +52,7 @@ Transformamos los datos de ambos sets con los notebooks de transformatiosn. En e
 
 Posteriormente, comparamos todos los modelos y obtenemos aquel que cuente con la puntuación más alta. Con este modelo final realizaremos las predicciones sobre el conjunto de test correspondiente.
 
-![arq](https://github.com/AlexPC23/DP3-Grupo-5/blob/main/arquitectura_dp3.png)
+![arq](https://github.com/AlexPC23/DP3-Grupo-5/blob/main/arquitectura_dp3.svg)
 
 
 ## 1. Ingesta y procesado 
