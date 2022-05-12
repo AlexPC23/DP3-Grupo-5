@@ -52,6 +52,9 @@ Transformamos los datos de ambos sets con los notebooks de transformatiosn. En e
 
 Posteriormente, comparamos todos los modelos y obtenemos aquel que cuente con la puntuación más alta. Con este modelo final realizaremos las predicciones sobre el conjunto de test correspondiente.
 
+![arq](https://github.com/AlexPC23/DP3-Grupo-5/blob/main/arquitectura_dp3.png)
+
+
 ## 1. Ingesta y procesado 
 
 En primer lugar, para poder realizar cualquier tipo de análisis o clasificación debemos de preprocesar nuestros datos input. Contamos con tres datasets principales, los cuales a su vez se subdividen en entrenamiento y test:
